@@ -1,27 +1,15 @@
 #include <stdio.h>
+int main(){
+   short number_1 = 10; //short:so nguyen,2 byte
+	int number_2 = 11; //int:so nguyen,4 byte
+	long number_3 = 12; //long:so nguyen,4 byte 
+	long long number_4 = 13; //long long:so nguyen,8 byte
+	unsigned short number_5 = 14; //unsigned short:so nguyen, 2 byte
+	unsigned int number_6 = 15; //unsigned int:so nguyen, 4 byte
+	unsigned long number_7 = 16; //unsigned long: so nguyen, 4 byte
+	unsigned long long number_8 =17; //unsigned long long: so nguyen, 8 byte
+	char number_9 = 18; //char:so nguyen, 1 byte
 
-int main() {
-    short s = 10;                      // short: so nguyen nho, thuong 2 byte
-    int i = 100;                       // int: so nguyen co kich thuoc tieu chuan, thuong 4 byte
-    long l = 1000L;                    // long: so nguyen lon hon int, thuong 4 hoac 8 byte tuy he thong
-    long long ll = 10000LL;            // long long: so nguyen rat lon, thuong 8 byte
-    unsigned short us = 20;            // unsigned short: so nguyen khong dau nho, 2 byte, chi luu gia tri duong
-    unsigned int ui = 200;             // unsigned int: so nguyen khong dau tieu chuan, 4 byte
-    unsigned long ul = 2000UL;         // unsigned long: so nguyen khong dau lon hon int, 4 hoac 8 byte
-    unsigned long long ull = 20000ULL; // unsigned long long: so nguyen khong dau rat lon, 8 byte
-    char c = 'A';                      // char: ky tu don, thuong 1 byte
+	return 0;
 
-    // In ra cac gia tri de kiem tra
-    printf("short: %d\n", s);
-    printf("int: %d\n", i);
-    printf("long: %ld\n", l);
-    printf("long long: %lld\n", ll);
-    printf("unsigned short: %hu\n", us);
-    printf("unsigned int: %u\n", ui);
-    printf("unsigned long: %lu\n", ul);
-    printf("unsigned long long: %llu\n", ull);
-    printf("char: %c\n", c);
-
-    return 0;
 }
-
